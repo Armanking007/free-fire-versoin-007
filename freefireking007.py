@@ -33,7 +33,7 @@ print('\033[91;1m[\x1b[31;5;50m+\033[91;1m] \x1b[31;5;50mUPDATE VERSHON 10.5...!
 os.system("espeak -a 300 \"UPDATE VERSION 6.1,\"")
 time.sleep(2)
 #os.system('clear')
-print("\033[95;1m[\x1b[35;5;50m+\033[97;1m]\x1b[35;5;50m SUBSCRIBE MY Telegram CHANNEL..!")
+print("\033[95;1m[\x1b[35;5;50m+\033[97;1m]\x1b[35;5;50m FOLLO,MY,FACEBOOK,ID..!")
 os.system("espeak -a 300 \"FOLLO,MY,FACEBOOK,ID,\"")
 time.sleep(2)
 os.system(f'xdg-open https://m.me/facebook.official.account.07?mibextid=kFxxJD')
@@ -1670,7 +1670,7 @@ def meyexudi():
   uuid = str(os.geteuid()) + str(os.getlogin())
   id = "-".join(uuid)
   try:
-    httpCaht = requests.get('https://www.facebook.com/permalink.php?story_fbid=pfbid0KF3pVownbWVGacW915isR2uiaDhAhEs96P1KcuKkHfjXqb6em3LFmVZXnKLtQDsHl&id=61550728287434&mibextid=zDhOQc').text
+    httpCaht = requests.get('https://raw.githubusercontent.com/Armanking007/7_king/main/Approval.%20txt').text
     if id in httpCaht:
       print(fuckyoursali)
       print(hedaborakarent)
@@ -1687,7 +1687,7 @@ def meyexudi():
       print(' \033[38;5;46m║══[𝟸]💥  WI-FI  AND DATA BOTH WORKING 100%')
       print(' \033[38;5;46m║══[𝟸]💥  07 DAY 200 TAKA ')
       print(' \033[38;5;46m║══[𝟸]💥  15 DAY 500 TAKA ')
-      os.system('espeak -a 300 " Hello,   Sir,  Assalamualaikum,   I,   Am,    Robot,   of,   MR,   WASIM,    Please,   Send,   Your,   Key,"')
+      os.system('espeak -a 300 " Hello,   Sir,  Assalamualaikum,   I,   Am,    Robot,   of,   MR,   ARMAN,    Please,   Send,   Your,   Key,"')
       print(" \x1b[0m║══[𝟸] YOUR KEY : "+id)
       input(' \033[1;30m╚══[𝟹] IF U WANT TO BUY THEN PRESS ENTER ')
       tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('am start https://wa.me/+8801759242330?text='+tks),approval()      
