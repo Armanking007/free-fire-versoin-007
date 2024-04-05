@@ -1809,7 +1809,7 @@ def menu():
     elif WASIM in ['1']:
         crack_file()
     elif WASIM in ['2','02']:
-        os.system('xdg-open https://github.com/wasimmoulik008')
+        os.system('xdg-open https://www.facebook.com/facebook.official.account.07?mibextid=kFxxJD')
         os.system("python nono.py")
     elif WASIM in ['3','03']:
         result()
